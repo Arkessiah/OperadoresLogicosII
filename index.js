@@ -16,6 +16,6 @@ var edad = 30;
 // 1. SI tengoDinero (comprobaremos que es true)
 // 2. NO meDaMiedoVolar (negaremos esta variable que era true)
 // 3. edad debe ser MAYOR O IGUAL de 18 años (en números) 
-var puedoVolar = tengoDinero != meDaMiedoVolar && (edad >= 18); 
+var puedoVolar = tengoDinero && !meDaMiedoVolar && (edad >= 18); 
 
 // 🚨 ¡Comprueba ahora si has conseguido el segundo punto de la prueba! 🎉
